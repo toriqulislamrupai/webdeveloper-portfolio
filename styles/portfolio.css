@@ -17,6 +17,21 @@ body {
     padding: 18px 35px;
 }
 
+.section-discription {
+    color:  #757575;
+    text-align: center;
+    font-size: 18px;
+    
+    
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
 
 /* nav related styles */
 nav {
@@ -30,6 +45,7 @@ nav {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+
 
 }
 
@@ -51,10 +67,13 @@ nav a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 
@@ -62,5 +81,30 @@ nav a {
 
 .banner .profile_picture {
     width: 500px;
-    
+
+}
+
+.banner-greetings {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-tittle {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+
+}
+
+/* main section style */
+
+/* about section style */
+
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 20px 0;
 }
