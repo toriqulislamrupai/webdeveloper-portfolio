@@ -106,6 +106,7 @@ main{
 
 /* about section style */
 
+
 .about {
     padding: 130px;
     border-radius: 10px;
@@ -118,4 +119,7 @@ main{
 }
 .about-info{
     text-align: center;
+}
+#what-i-do-discription{
+    padding: 30px 150px;
 }
